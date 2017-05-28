@@ -1,0 +1,4 @@
+cron:
+- description: Web Crawler for Stocks
+  url: /
+  schedule: every 15 mins
