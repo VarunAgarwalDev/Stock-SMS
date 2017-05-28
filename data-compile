@@ -1,9 +1,0 @@
-import requests
-from bs4 import BeautifulSoup
-
-url = "https://finance.yahoo.com/quote/CSCO?p=CSCO"
-r = requests.get(url)
-
-soup = BeautifulSoup(r.content)
-
-print(soup.find_all("a"))
