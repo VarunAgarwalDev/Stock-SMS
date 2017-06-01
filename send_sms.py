@@ -9,7 +9,7 @@ auth_token  = "82203b287d3245185b6c8ea9f3f22bd7"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+14087841112",
+    to="+14082421867",
     from_="+19713333528",
     body="Check change for AMD")
 
